@@ -1,0 +1,52 @@
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+ul {
+    width: 1653px;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.banner, button {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.banner {
+    display: flex;;
+    height: 150px;
+}
+
+.banner img{
+    display: flex;
+    justify-content: flex-end
+}
+
+.infoboxes{
+    display: flex;
+    height: 200px;
+}
+
+.quote{
+    display: flex;
+    height: 200px;
+}
+
+.CTA {
+    display: flex;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+}
