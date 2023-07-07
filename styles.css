@@ -51,17 +51,20 @@ img {
 
 
 .quote{
-    justify-self: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
     
+    
 }
 
 .qtext {
     display: flex;
+    
+    text-align: end;
     color: red;
+    max-width: 250px;
 }
 
 .atext {
@@ -70,12 +73,30 @@ img {
     color: blue;
 }
 
+/* THis is where the call to action section begins*/
+
 .CTA {
     display: flex;
     height: 150px;
+    justify-content: center;
+    align-items: center;
 }
+
+.Cbox {
+    height: 70px;
+    width: auto;
+    background-color: aqua;
+    display: block;
+    display: flex;
+
+
+}
+
+
+/* THis is where the footer section begins*/
 
 .footer {
     display: flex;
     height: 50px;
 }
+
