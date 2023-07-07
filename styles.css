@@ -1,5 +1,7 @@
-
-
+body {
+    text-align: center;
+}
+/* THis is where the header row begins*/
 .header {
     display: flex;
     flex-direction: row;
@@ -15,30 +17,57 @@ ul {
     align-items: flex-start;
 }
 
-.banner, button {
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-end;
-}
-
+/* THis is where the banner row begins*/
 .banner {
     display: flex;;
     height: 150px;
 }
 
-.banner img{
+button {
     display: flex;
-    justify-content: flex-end
+    align-self: flex-end;
+    height: fit-content;
+}
+/* THis is where the infoboxes row begins*/
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.boxes {
+    max-width: 200px;
 }
 
 .infoboxes{
     display: flex;
-    height: 200px;
+    justify-content: center;
+    gap: 30px;
+    
 }
 
+
+
+
+
 .quote{
+    justify-self: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
+    
+}
+
+.qtext {
+    display: flex;
+    color: red;
+}
+
+.atext {
+    display: flex;
+    align-self: flex-end;
+    color: blue;
 }
 
 .CTA {
