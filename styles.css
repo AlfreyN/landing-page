@@ -1,11 +1,21 @@
 body {
     text-align: center;
+    border-left: 70px;
+    border-right: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 /* THis is where the header row begins*/
 .header {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
+    background-color: #1F2937;
+}
+
+.htext {
+    font-size: 24px;
+    color: #f9faf8
 }
 
 ul {
@@ -15,53 +25,78 @@ ul {
     gap: 8px;
     justify-content: flex-end;
     align-items: flex-start;
+    font-size: 18px;
+    color: e5e7eb;
 }
 
 /* THis is where the banner row begins*/
 .banner {
+    background-color: #1F2937;
     display: flex;;
     height: 150px;
 }
 
+.rtext {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
 button {
+    background-color: #3882F6;
     display: flex;
     align-self: flex-end;
     height: fit-content;
 }
+
+.infoheader {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 10px;
+    color: #1F2937;
+}
+
 /* THis is where the infoboxes row begins*/
 
 img {
     width: 100px;
-    height: 100px;
+    height: 120px;
+    border-radius: 10px;
 }
 
 .boxes {
     max-width: 200px;
+
 }
 
 .infoboxes{
     display: flex;
     justify-content: center;
     gap: 30px;
-    
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 
-
+/* THis is where the quote section begins*/
 
 
 .quote{
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    
-    
+    max-height: 200px;
+    font-size: 36px;
+    font: 'light italic';
 }
 
 .qtext {
     display: flex;
-    
+    max-height: 50px;
     text-align: end;
     color: red;
     max-width: 250px;
@@ -98,5 +133,12 @@ img {
 .footer {
     display: flex;
     height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftext {
+    display: flex;
+    
 }
 
